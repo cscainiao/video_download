@@ -10,8 +10,8 @@ def upload_video(video_id,site_name='t'):
     file_path = os.path.join(base_dir, video_id, video_id + '.mp4')
 
     #需要填写你的 Access Key 和 Secret Key
-    access_key = 'vECq3gaU9nYuFCg5-XPf8vG5ia0I55XHFhFN_bYO'
-    secret_key = 'HLO0bvRW0rwSDHV5J3slQ4-zbtY_OTOjTAjZMrLu'
+    access_key = ''
+    secret_key = ''
 
     #构建鉴权对象
     q = Auth(access_key, secret_key)
