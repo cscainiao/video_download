@@ -8,7 +8,7 @@ from common import functions
 
 redis_key = 'blibli_video_tasks'
 
-add_time = '2019-06-12'               # 添加任务到bd中的时间
+add_time = '2019-06-12'               # 添加任务到bd中的时间,test git
 REDIS_OBJ = redis.Redis()
 conn = psycopg2.connect(database='spiders', user='postgres', password='123456',
                         host='127.0.0.1', port='5432')
